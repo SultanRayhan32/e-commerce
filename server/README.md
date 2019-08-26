@@ -13,6 +13,8 @@
 | /cart | GET  |  token | none   | Get Cart  |       data     |
 | /cart/checkout | POST  |  token | ProductList:array , User:ObjectId , alamat:string , status:string  , total harga:number | Checkout |       data     |
 
+### PRODUCT
+
 | Route  | HTTP   | Headers   | Body  | Description  |    response      |
 |---|---|---|---|---|----|
 |  /product | POST  |  token |  name:string , price:number ,  image:string ,Stock:number    | Add A new product   |      data    |
